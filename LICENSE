@@ -1,0 +1,51 @@
+﻿END USER LICENSE AGREEMENT AND COMPREHENSIVE DISCLAIMER OF ALL LIABILITY
+
+SOFTWARE: Quantum Viper 
+VERSION: 4.0.0
+DATE: April 1, 2026
+
+IMPORTANT - READ CAREFULLY BEFORE ACCESSING OR USING THIS SOFTWARE.
+
+This End User License Agreement ("Agreement" or "EULA") is a legally binding contract between you (the "User") and the developers and copyright holders of Quantum Viper (the "Company", "We", or "Us").
+
+BY DOWNLOADING, INSTALLING, COPYING, ACCESSING, OR OTHERWISE USING THE SOFTWARE, YOU EXPRESSLY AGREE TO BE BOUND BY ALL THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE, YOU MUST NOT USE THE SOFTWARE.
+
+1. PROPRIETARY RIGHTS & STRICT RESTRICTIONS
+This Software and its underlying source code, architecture, and algorithms are strictly PROPRIETARY AND CONFIDENTIAL assets of the Company. You are granted a limited, personal, non-exclusive, non-transferable license to use the Software solely for its intended purpose. 
+You are STRICTLY PROHIBITED from:
+(a) Redistributing, sublicensing, leasing, selling, or commercializing this Software or any of its parts (THIS IS NOT OPEN SOURCE SOFTWARE);
+(b) Reverse-engineering, decompiling, disassembling, or extracting trade secrets;
+(c) Modifying, adapting, or creating derivative works from the proprietary source code;
+(d) Removing or altering any prominent copyright notices, branding, or restrictions.
+
+2. ACKNOWLEDGMENT AND ASSUMPTION OF ALL RISK
+By using this Software, You categorically agree that You are using it ENTIRELY AT YOUR OWN RISK. This Software performs static and dynamic code analysis, artificial intelligence processing, directory, file, and system-level operations. You acknowledge that interactions between this Software and Your computer systems, networks, local environments, external servers, and files possess inherent risks. We shall bear ZERO legal or financial responsibility for catastrophic occurrences, including but not limited to, data destruction, hardware damage, software corruption, or system instability. 
+
+3. ABSOLUTE DISCLAIMER OF ALL WARRANTIES
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED TO YOU "AS-IS", "WITH ALL FAULTS," AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR STRICTLY LEGAL. WE DISCLAIM ALL GUARANTEES AND WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SOFTWARE WILL BE FREE FROM BUGS, ERRORS, MALWARE, UNAUTHORIZED BACKDOORS, OR THAT ITS OPERATION WILL BE UNINTERRUPTED OR COMPLETELY SECURE.
+
+4. SPECIFIC DISCLAIMER FOR SECURITY AUDITING AND AI FEATURES
+The Software is marketed as a supplemental tool for identifying anomalies or vulnerabilities. IT IS NOT A SUBSTITUTE FOR PROFESSIONAL SECURITY EXPERTISE. We DO NOT GUARANTEE that the Software will successfully detect, report, or remediate all, or any, security flaws, defects, zero-days, or vulnerabilities. Utilizing this Software does not render Your applications "secure" or immune to cyber attacks. 
+
+5. MAXIMUM LIMITATION OF LIABILITY
+TO THE ABSOLUTE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAW, IN NO EVENT WHATSOEVER SHALL THE AUTHORS, DEVELOPERS, OR THE COMPANY BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DAMAGES OF ANY KIND.
+UNDER NO CIRCUMSTANCES SHALL WE BE LIABLE FOR ANY:
+- Direct, indirect, incidental, punitive, exemplary, special, or consequential damages;
+- Destruction, corruption, or modification of YOUR COMPUTER SYSTEM, HARDWARE, REGISTRY, OR HOST ENVIRONMENTS;
+- Loss, deletion, corruption, or leakage of source FILES, PROJECTS, DATABASES, LOGS, OR ARCHIVES;
+- Loss of anticipated profits, commercial opportunities, business interruption;
+- Legal ramifications or litigations resulting from external security breaches, exploited vulnerabilities, hacked servers, or stolen intellectual property, EVEN IF SUCH VULNERABILITIES WERE SCANNED, ANALYZED, OR "CLEARED" BY THIS SOFTWARE;
+- Damages arising out of reliance upon any output, code modification, or AI-generated implementation provided by the Software.
+YOU ACT EXCLUSIVELY ON YOUR OWN PERIL.
+
+6. THIRD-PARTY SERVICES AND INFRASTRUCTURE
+The Software integrates with external third-party services (such as external authentication providers, database infrastructures, and AI models). These external properties operate under their own independent SLAs. We claim NO liability, responsibility, or supervision over the performance, security, data retention, or outages related strictly to these third-party endpoints. 
+
+7. INDEMNIFICATION AND HOLD HARMLESS 
+You unconditionally agree to fully indemnify, defend, and hold forever harmless the Company, the creators, and developers from and against any and all liabilities, legal claims, court actions, demands, damages, losses, and administrative costs (including attorney's fees) that arise directly or indirectly out of:
+(a) Your use or misuse of the Software;
+(b) Any physical or digital damage occurring on infrastructure owned, operated, or accessed by You;
+(c) Any violation by You of this Agreement.
+
+8. GOVERNING LAW
+Any claim relating to the Software shall be governed by the laws of the jurisdiction in which the Company is headquartered, without regard to its conflict of law provisions.
