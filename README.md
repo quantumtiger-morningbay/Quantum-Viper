@@ -103,12 +103,6 @@ jobs:
 - uses: quantumtiger/quantum-viper-action@v4
 ```
 
-## Links
-
-- [Changelog](docs/CHANGELOG.md)
-- [Website](https://quantumviper.com)
-- [GitHub](https://github.com/chiragnahata/Quantum-Viper)
-
 ## License
 
 Proprietary — © 2025-2026 Quantum Tiger. All rights reserved.
