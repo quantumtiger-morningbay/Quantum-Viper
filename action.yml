@@ -1,0 +1,89 @@
+name: "Quantum Viper Security Scanner"
+description: "AI-Powered Security Scanning for your Codebase and Infrastructure"
+author: "Quantum Tiger"
+branding:
+  icon: "shield"
+  color: "green"
+inputs:
+  api-key:
+    description: "Quantum Viper API Key (Optional for basic scans)"
+    required: false
+  profile-token:
+    description: "SynapseProfile Token for preference syncing"
+    required: false
+  target:
+    description: "Target to scan (file path for static, URL/IP for cortex)"
+    required: false
+    default: "."
+  scan-type:
+    description: "Type of scan: static, web-scan, network-scan, cloud-scan, binary-scan, osint-scan, ai-scan, sca, secrets, iac, license"
+    required: false
+    default: "static"
+  fail-on-critical:
+    description: "Fail the workflow if critical vulnerabilities are found"
+    required: false
+    default: "true"
+  auto-fix:
+    description: "Automatically fix vulnerabilities and commit changes"
+    required: false
+    default: "false"
+  config-url:
+    description: "URL to a remote .quantumviper.json configuration file"
+    required: false
+  delta-scan:
+    description: "Scan only changed files (requires fetch-depth: 0)"
+    required: false
+    default: "false"
+  github-token:
+    description: "GitHub Token for PR comments and commits"
+    required: false
+    default: "${{ github.token }}"
+  baseline-file:
+    description: "Path to baseline file for suppressing known findings"
+    required: false
+    default: ".quantumviper-baseline.json"
+  slack-webhook:
+    description: "Slack Incoming Webhook URL for notifications"
+    required: false
+  upload-sbom:
+    description: "Upload generated SBOM as a workflow artifact"
+    required: false
+    default: "false"
+  # Self-Learning Configuration
+  enable-learning:
+    description: "Enable self-learning to filter known false positives"
+    required: false
+    default: "true"
+  appwrite-endpoint:
+    description: "Appwrite API endpoint for learning data storage"
+    required: false
+  appwrite-project-id:
+    description: "Appwrite project ID for Quantum Viper"
+    required: false
+  appwrite-api-key:
+    description: "Appwrite API key (with read access to learning_patterns collection)"
+    required: false
+outputs:
+  vulnerability-count:
+    description: "Total number of vulnerabilities found"
+  critical-count:
+    description: "Number of critical severity vulnerabilities"
+  high-count:
+    description: "Number of high severity vulnerabilities"
+  scan-duration:
+    description: "Scan duration in seconds"
+  sarif-file:
+    description: "Path to generated SARIF file (if vulnerabilities found)"
+  scan-results:
+    description: "JSON string of full scan results"
+  security-score:
+    description: "Security score (A-F grade)"
+  sbom-file:
+    description: "Path to generated SBOM file"
+  license-report:
+    description: "JSON string of license compliance results"
+  learned-filter-count:
+    description: "Number of findings filtered by self-learning"
+runs:
+  using: "node20"
+  main: "dist/index.js"
