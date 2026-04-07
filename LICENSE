@@ -1,51 +1,201 @@
-﻿END USER LICENSE AGREEMENT AND COMPREHENSIVE DISCLAIMER OF ALL LIABILITY
+MASTER LICENSE AGREEMENT
+(Quantum Viper)
+QUANTUM VIPER SOFTWARE LICENSE AGREEMENT
+Issued by: Morning Bay Technology Private Limited
+QUANTUM VIPER – ACCEPTABLE USE, SECURITY & SERVICE LEVEL AGREEMENT (UNIFIED POLICY)
+Issued by: Morning Bay Technology Private Limited
 
-SOFTWARE: Quantum Viper 
-VERSION: 4.0.0
-DATE: April 1, 2026
+1. PURPOSE
+This Unified Policy governs the acceptable use, security framework, and service commitments of Quantum Viper (“Software” / “Services”). It forms an integral part of the Quantum Viper License Agreement.
+By using the Software, the User agrees to comply with this Policy.
 
-IMPORTANT - READ CAREFULLY BEFORE ACCESSING OR USING THIS SOFTWARE.
+2. ACCEPTABLE USE POLICY (AUP)
+2.1 Permitted Use
+The Software may only be used for lawful purposes, including:
+•	Code analysis and vulnerability detection
+•	Software development and testing
+•	Security research within legal boundaries
 
-This End User License Agreement ("Agreement" or "EULA") is a legally binding contract between you (the "User") and the developers and copyright holders of Quantum Viper (the "Company", "We", or "Us").
+2.2 Prohibited Use
+User shall NOT use the Software to:
+(A) Illegal Activities
+•	Violate any applicable law or regulation
+•	Engage in fraud, cybercrime, or unauthorized access
+(B) Harmful Conduct
+•	Develop, distribute, or enhance malware, ransomware, or exploits
+•	Conduct unauthorized penetration testing or scanning
+•	Facilitate denial-of-service attacks
+(C) Abuse of Platform
+•	Interfere with system integrity or performance
+•	Attempt unauthorized access to systems or data
+•	Circumvent security or licensing mechanisms
+(D) Competitive Misuse
+•	Reverse engineer or replicate the Software
+•	Build competing products using insights from the Software
+(E) Data Misuse
+•	Process data without proper authorization
+•	Upload sensitive data in violation of law or contract
 
-BY DOWNLOADING, INSTALLING, COPYING, ACCESSING, OR OTHERWISE USING THE SOFTWARE, YOU EXPRESSLY AGREE TO BE BOUND BY ALL THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE, YOU MUST NOT USE THE SOFTWARE.
+2.3 Enforcement
+The Company reserves the right to:
+•	Suspend or terminate access immediately
+•	Investigate misuse
+•	Report violations to authorities
+No prior notice is required.
 
-1. PROPRIETARY RIGHTS & STRICT RESTRICTIONS
-This Software and its underlying source code, architecture, and algorithms are strictly PROPRIETARY AND CONFIDENTIAL assets of the Company. You are granted a limited, personal, non-exclusive, non-transferable license to use the Software solely for its intended purpose. 
-You are STRICTLY PROHIBITED from:
-(a) Redistributing, sublicensing, leasing, selling, or commercializing this Software or any of its parts (THIS IS NOT OPEN SOURCE SOFTWARE);
-(b) Reverse-engineering, decompiling, disassembling, or extracting trade secrets;
-(c) Modifying, adapting, or creating derivative works from the proprietary source code;
-(d) Removing or altering any prominent copyright notices, branding, or restrictions.
+3. SECURITY POLICY
+3.1 Security Philosophy
+Quantum Viper follows a “best-effort, commercially reasonable security” model.
+No system is guaranteed to be fully secure.
 
-2. ACKNOWLEDGMENT AND ASSUMPTION OF ALL RISK
-By using this Software, You categorically agree that You are using it ENTIRELY AT YOUR OWN RISK. This Software performs static and dynamic code analysis, artificial intelligence processing, directory, file, and system-level operations. You acknowledge that interactions between this Software and Your computer systems, networks, local environments, external servers, and files possess inherent risks. We shall bear ZERO legal or financial responsibility for catastrophic occurrences, including but not limited to, data destruction, hardware damage, software corruption, or system instability. 
+3.2 Infrastructure Security
+The Company implements:
+•	Access control mechanisms (role-based access where applicable)
+•	Encryption in transit (where cloud/API is used)
+•	Secure development practices
+•	Monitoring and logging of system activity
 
-3. ABSOLUTE DISCLAIMER OF ALL WARRANTIES
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED TO YOU "AS-IS", "WITH ALL FAULTS," AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR STRICTLY LEGAL. WE DISCLAIM ALL GUARANTEES AND WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SOFTWARE WILL BE FREE FROM BUGS, ERRORS, MALWARE, UNAUTHORIZED BACKDOORS, OR THAT ITS OPERATION WILL BE UNINTERRUPTED OR COMPLETELY SECURE.
+3.3 Application Security
+•	Regular updates and patches
+•	Internal testing and validation
+•	Secure coding practices
+However:
+•	The Software may contain vulnerabilities
+•	The Company does not guarantee defect-free operation
 
-4. SPECIFIC DISCLAIMER FOR SECURITY AUDITING AND AI FEATURES
-The Software is marketed as a supplemental tool for identifying anomalies or vulnerabilities. IT IS NOT A SUBSTITUTE FOR PROFESSIONAL SECURITY EXPERTISE. We DO NOT GUARANTEE that the Software will successfully detect, report, or remediate all, or any, security flaws, defects, zero-days, or vulnerabilities. Utilizing this Software does not render Your applications "secure" or immune to cyber attacks. 
+3.4 Data Security
+•	Local-first architecture where applicable
+•	Optional cloud processing based on user configuration
+User acknowledges:
+•	Data security depends significantly on user environment
+•	The Company is not responsible for user-side vulnerabilities
 
-5. MAXIMUM LIMITATION OF LIABILITY
-TO THE ABSOLUTE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAW, IN NO EVENT WHATSOEVER SHALL THE AUTHORS, DEVELOPERS, OR THE COMPANY BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DAMAGES OF ANY KIND.
-UNDER NO CIRCUMSTANCES SHALL WE BE LIABLE FOR ANY:
-- Direct, indirect, incidental, punitive, exemplary, special, or consequential damages;
-- Destruction, corruption, or modification of YOUR COMPUTER SYSTEM, HARDWARE, REGISTRY, OR HOST ENVIRONMENTS;
-- Loss, deletion, corruption, or leakage of source FILES, PROJECTS, DATABASES, LOGS, OR ARCHIVES;
-- Loss of anticipated profits, commercial opportunities, business interruption;
-- Legal ramifications or litigations resulting from external security breaches, exploited vulnerabilities, hacked servers, or stolen intellectual property, EVEN IF SUCH VULNERABILITIES WERE SCANNED, ANALYZED, OR "CLEARED" BY THIS SOFTWARE;
-- Damages arising out of reliance upon any output, code modification, or AI-generated implementation provided by the Software.
-YOU ACT EXCLUSIVELY ON YOUR OWN PERIL.
+3.5 User Responsibilities
+User must:
+•	Secure their systems and credentials
+•	Implement independent security reviews
+•	Validate all outputs before use
+•	Maintain backups of critical data
 
-6. THIRD-PARTY SERVICES AND INFRASTRUCTURE
-The Software integrates with external third-party services (such as external authentication providers, database infrastructures, and AI models). These external properties operate under their own independent SLAs. We claim NO liability, responsibility, or supervision over the performance, security, data retention, or outages related strictly to these third-party endpoints. 
+3.6 Incident Response
+In case of a known security incident:
+•	The Company will use reasonable efforts to notify affected Users
+•	No guaranteed response or resolution timelines are provided
 
-7. INDEMNIFICATION AND HOLD HARMLESS 
-You unconditionally agree to fully indemnify, defend, and hold forever harmless the Company, the creators, and developers from and against any and all liabilities, legal claims, court actions, demands, damages, losses, and administrative costs (including attorney's fees) that arise directly or indirectly out of:
-(a) Your use or misuse of the Software;
-(b) Any physical or digital damage occurring on infrastructure owned, operated, or accessed by You;
-(c) Any violation by You of this Agreement.
+3.7 Vulnerability Disclosure
+Users may report vulnerabilities to the Company.
+By submitting:
+•	User grants the Company rights to use and remediate
+•	No compensation is guaranteed
 
-8. GOVERNING LAW
-Any claim relating to the Software shall be governed by the laws of the jurisdiction in which the Company is headquartered, without regard to its conflict of law provisions.
+3.8 No Security Warranty
+The Company explicitly disclaims:
+•	Any guarantee of security
+•	Any obligation to prevent breaches
+•	Any liability arising from security incidents
+
+4. SERVICE LEVEL AGREEMENT (SLA)
+4.1 Service Nature
+Quantum Viper is provided on a best-effort basis.
+No guaranteed uptime applies unless explicitly agreed in writing.
+
+4.2 Availability
+The Company does NOT guarantee:
+•	Continuous availability
+•	Error-free operation
+•	Uninterrupted access
+Downtime may occur due to:
+•	Maintenance
+•	Infrastructure failures
+•	Third-party dependencies
+•	Force majeure events
+
+4.3 Support
+Support (if applicable) is provided:
+•	On a reasonable-effort basis
+•	Without guaranteed response or resolution time
+
+4.4 Updates & Changes
+The Company may:
+•	Modify or discontinue features
+•	Release updates without notice
+•	Change functionality at any time
+
+4.5 No SLA Credits
+User is NOT entitled to:
+•	Refunds
+•	Service credits
+•	Compensation
+for any downtime, performance issues, or failures.
+
+5. THIRD-PARTY DEPENDENCIES
+The Software may depend on:
+•	Cloud providers
+•	APIs
+•	Open-source components
+The Company:
+•	Does not control third-party services
+•	Is not liable for their failures
+
+6. DATA PROCESSING & SECURITY LIMITATION
+The Company:
+•	Processes data as configured by the User
+•	Does not guarantee confidentiality or integrity in all scenarios
+User assumes full risk for:
+•	Data loss
+•	Data breaches
+•	Misconfiguration
+
+7. EXPORT CONTROL & COMPLIANCE
+User agrees:
+•	Not to use the Software in violation of export laws
+•	Not to access from sanctioned jurisdictions
+•	Not to use for prohibited activities
+The Company may restrict access without notice.
+
+8. OPEN SOURCE COMPONENTS
+The Software may include open-source components.
+•	Governed by respective licenses
+•	Provided “as is”
+•	No warranties provided
+User must comply with applicable open-source terms.
+
+9. LIMITATION OF LIABILITY (APPLIES TO THIS POLICY)
+To the maximum extent permitted by law:
+The Company shall NOT be liable for:
+•	Security incidents
+•	Service downtime
+•	Data loss
+•	Third-party failures
+•	Misuse of Software
+Liability (if any) remains capped as per the License Agreement.
+
+10. INDEMNIFICATION
+User agrees to indemnify the Company against:
+•	Claims arising from misuse
+•	Violations of this Policy
+•	Security failures in User systems
+•	Illegal or unauthorized activities
+
+11. MODIFICATIONS
+The Company may update this Policy at any time.
+Continued use constitutes acceptance.
+
+12. GOVERNING LAW & JURISDICTION
+Governed by laws of India.
+Exclusive jurisdiction: Kolkata, West Bengal.
+
+13. ARBITRATION
+All disputes shall be resolved via binding arbitration:
+•	Seat: Kolkata, India
+•	Language: English
+•	Sole arbitrator appointed by Company
+•	Governed by Arbitration and Conciliation Act, 1996
+
+14. FINAL ACKNOWLEDGMENT
+By using Quantum Viper, the User:
+•	Accepts all risks associated with use
+•	Acknowledges absence of guarantees
+•	Agrees to comply with this Policy in full
+
+END OF POLICY
